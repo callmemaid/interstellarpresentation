@@ -107,16 +107,16 @@ section {
     background-color: #f7f9f2;
     border-radius: 10px;
     padding: 2em 1.2em;
-    margin: 0 auto; /* Center horizontally */
+    margin: 0 auto;
     text-decoration: none;
     z-index: 0;
     overflow: hidden;
     background: linear-gradient(to bottom, #D77A5F, #A35B35);
     font-family: Arial, Helvetica, sans-serif;
     position: relative;
-    top: 50%; /* Center vertically */
+    top: 50%;
     transform: translateY(-50%);
-    margin-top: 130px; /* Adjust this value based on your header height */
+    margin-top: 150px;
   }
   
   
