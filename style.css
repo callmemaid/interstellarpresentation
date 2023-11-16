@@ -141,6 +141,6 @@ section {
   
   .card:hover .card-title {
     transition: all 0.5s ease-out;
-    color: #ffffff;
+    color: #fffefe;
   }
   
