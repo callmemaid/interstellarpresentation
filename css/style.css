@@ -53,7 +53,6 @@ section {
 }
 
 .card-title {
-  position: center;
     color: #262626;
     font-size: 1.5em;
     line-height: normal;
@@ -108,17 +107,22 @@ section {
     background-color: #f7f9f2;
     border-radius: 10px;
     padding: 2em 1.2em;
-    margin: 12px;
+    margin: 0 auto; /* Center horizontally */
     text-decoration: none;
     z-index: 0;
     overflow: hidden;
     background: linear-gradient(to bottom, #D77A5F, #A35B35);
     font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    top: 50%; /* Center vertically */
+    transform: translateY(-50%);
+    margin-top: 120px; /* Adjust this value based on your header height */
   }
+  
   
   .card:before {
     content: '';
-    position: absolute;
+    position: center;
     z-index: -1;
     top: -64px;
     right: -64px;
