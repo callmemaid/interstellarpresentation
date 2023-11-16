@@ -39,7 +39,7 @@ h22 {
   font-size: 40px;
   z-index: -11px;
   font-family: 'Bebas Neue', sans-serif;
-  color: #ffffff;
+  color: #402E32;
   opacity: 200%;
 }
 
@@ -53,6 +53,7 @@ section {
 }
 
 .card-title {
+  position: center;
     color: #262626;
     font-size: 1.5em;
     line-height: normal;
